@@ -54,6 +54,7 @@ main {
   width: 100%;
   justify-content: center;
   flex-wrap: wrap;
+  color: #ffffff;
 }
 
 .divDesc, .divType, .divAmount {
@@ -77,7 +78,6 @@ input, select, .btn {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 0px 5px 5px 5px #50016e;
-  margin-top:;
 }
 
 .divTable {
