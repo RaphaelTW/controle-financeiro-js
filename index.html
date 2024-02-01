@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" dir="ltr" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta name="description" content="Raphael Laurentino - Controle Financeiro" />
+
+  <title>Sistema Financeiro 💰</title>
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="icon" type="image/png" href="src/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <div class="resume">
+        <div>
+          <strong>Entradas: R$</strong>
+          <span class="incomes">0.00</span>
+        </div>
+
+        <div>
+          <strong>Saídas: R$</strong>
+          <span class="expenses">0.00</span>
+        </div>
+
+        <div>
+          <strong>Total: R$</strong>
+          <span class="total">0.00</span>
+        </div>
+      </div>
+
+      <div class="newItem">
+        <div class="divDesc">
+          <label for="desc"> <strong>Descrição</strong></label>
+          <input type="text" id="desc" />
+        </div>
+
+        <div class="divAmount">
+          <label for="amount"> <strong>Valor</strong></label>
+          <input type="number" id="amount" />
+        </div>
+
+        <div class="divType">
+          <label for="type"> <strong>Tipo</strong></label>
+          <select id="type">
+            <option>Entrada</option>
+            <option>Saída</option>
+          </select>
+        </div>
+
+        <button class="btn" type="button" id="btnNew"><strong>Incluir</strong></button>
+      </div>
+
+      <div class="divTable">
+        <table>
+          <thead>
+            <tr>
+              <th>Descrição</th>
+              <th class="columnAmount">Valor</th>
+              <th class="columnType">Tipo</th>
+              <th class="columnAction"></th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+  </main>
+
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>

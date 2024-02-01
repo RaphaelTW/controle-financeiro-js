@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #9B26AF;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+main {
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume {
+  display: flex;
+  padding: 10px 0;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resume > div {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 5px 5px #50016e;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  background-color: #ffffff;
+  color: #8A05BE;
+}
+
+.newItem {
+  display: flex;
+  gap: 10px;
+  align-items: end;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.divDesc, .divType, .divAmount {
+  display: flex;
+  flex-direction: column;
+}
+
+.newItem > button {
+  background-color: #7b0091;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 34px;
+  margin-top: 2rem;
+}
+
+input, select, .btn {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 5px 5px 5px #50016e;
+  margin-top:;
+}
+
+.divTable {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+table {
+  width: 98%;
+  padding: 20px 0;
+  border-radius: 5px;
+  background-color: #ffffffd0;
+  box-shadow: 0px 5px 5px 5px #50016e;
+}
+
+th {
+  text-align: start;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  color: #8A05BE;
+}
+
+.bx {
+  font-size: 25px;
+}
+
+.bxs-chevron-up-circle {
+  color: #00c92c;
+}
+
+.bxs-chevron-down-circle {
+  color: #940e02;
+}
+
+.columnAction {
+  width: 40px;
+  text-align: center;
+}
+
+.columnAction > button {
+  background: transparent;
+  border: none;
+}
+
+.columnAmount {
+  width: 30%;
+}
+
+.columnType {
+  width: 80px;
+  text-align: center;
+}
